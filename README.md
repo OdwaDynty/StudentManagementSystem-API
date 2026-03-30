@@ -1,1 +1,56 @@
-# StudentManagementSystem
+# Student Management System API
+
+## Overview
+This project is a RESTful API built using ASP.NET Core and SQL Server.  
+It manages student records and demonstrates backend development skills including CRUD operations, filtering, pagination, and reporting.
+
+## Tech Stack
+- C#
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server
+
+## Features
+
+### Core Functionality
+- Add, update, delete students
+- Retrieve all students or a single student by ID
+
+### Advanced Features
+- Filtering by name and minimum mark
+- Pagination support
+- Top-performing student endpoint
+- Average mark calculation
+- Pass/Fail reporting with percentages
+
+### Architecture
+- Controller → Service Layer structure
+- DTOs for clean API design
+- Asynchronous operations (async/await)
+- Entity Framework Core for database access
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|--------|--------|------------|
+| GET | /api/students | Get all students (filter + pagination) |
+| GET | /api/students/{id} | Get student by ID |
+| POST | /api/students | Create a new student |
+| PUT | /api/students/{id} | Update student |
+| DELETE | /api/students/{id} | Delete student |
+| GET | /api/students/top-student | Get top student |
+| GET | /api/students/average-mark | Get average mark |
+| GET | /api/students/pass-fail-report | Get pass/fail report |
+
+## How to Run
+
+1. Clone the repository
+2. Open the project in Visual Studio
+3. Update connection string in `appsettings.json`
+4. Run the following command:
+5. dotnet ef database update
+6. Start the application
+7. Open Swagger UI to test endpoints
+
+## Author
+Odwa Dyantyi
