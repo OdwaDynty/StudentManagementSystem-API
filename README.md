@@ -52,5 +52,25 @@ It manages student records and demonstrates backend development skills including
 6. Start the application
 7. Open Swagger UI to test endpoints
 
+## API Preview
+
+### Swagger Overview
+<img width="1508" height="748" alt="swagger-overview" src="https://github.com/user-attachments/assets/85e14767-9ab4-4bf6-ba37-2288f3c9c775" />
+
+
+(swagger-overview.png)
+
+### Get Students
+<img width="1443" height="560" alt="get-students pic 1" src="https://github.com/user-attachments/assets/0d591749-a288-4a69-9c1b-0f0ea3653364" />
+
+<img width="1420" height="941" alt="get-students pic 2" src="https://github.com/user-attachments/assets/c1669d02-21a8-4d61-b5d3-d55703e6153c" />
+
+### Create Student
+<img width="1458" height="665" alt="post-student pic 1" src="https://github.com/user-attachments/assets/04bfdbf6-bb36-4c9e-bd97-c0febc8b955a" />
+
+<img width="1425" height="801" alt="post-student pic 2" src="https://github.com/user-attachments/assets/3788c4e9-f264-4b05-b9b4-0bc18f56e940" />
+
+
+
 ## Author
 Odwa Dyantyi
